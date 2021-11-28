@@ -39,9 +39,37 @@
       "frameworks": {
         "uap10.0.17763": {
           "dependencies": {
+            "DocuSign.eSign.dll": {
+              "target": "Package",
+              "version": "[5.8.0, )"
+            },
+            "IKVM": {
+              "target": "Package",
+              "version": "[8.1.5717, )"
+            },
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.12, )"
+            },
+            "Mvc2Futures": {
+              "target": "Package",
+              "version": "[2.0.50217, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.40, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[39.80.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2244, )"
             }
           },
           "imports": [

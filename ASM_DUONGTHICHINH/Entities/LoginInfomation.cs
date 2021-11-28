@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace ASM_DUONGTHICHINH.Entities
 {
-    class Login
+   public class LoginInfomation
     {
-
         public string email { get; set; }
         public string password { get; set; }
     }

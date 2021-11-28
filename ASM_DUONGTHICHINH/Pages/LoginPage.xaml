@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="ASM_DUONGTHICHINH.Pages.LoginPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ASM_DUONGTHICHINH.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Margin="0 10 0 20">
+        <TextBlock Text="Form Login" Margin="20 20 0 10" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="txtEmail" Header="Email" Width="300" PlaceholderText="Please enter your email" HorizontalAlignment="Left"/>
+        <PasswordBox x:Name="txtPassword" Header="Password" Width="300" PlaceholderText="Please enter your assword" HorizontalAlignment="Left"/>
+        <StackPanel Orientation="Horizontal" Margin="20 10 0 0">
+            <Button Content="Submit" Width="120" Margin="0 0 10 0" Click="Button_Click"/>
+            <Button Content="Reset" Width="120" />
+        </StackPanel>
+        <HyperlinkButton Click="HyperlinkButton_Click" Margin="20 0 0 0" HorizontalAlignment="Left"
+                         Content="If you don't have an account"/>
+    </StackPanel>
+</Page>
